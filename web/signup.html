@@ -1,0 +1,81 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Sign Up</title>
+                <link rel="shortcut icon" type="image/x-icon" href="images/cloud.ico" />
+		<script>
+        function agree(ck){
+            if(ck.checked){
+                document.getElementById("btn").disabled=false;
+            }else{
+               document.getElementById("btn").disabled=true;
+            }
+    }
+    function validate(frm){
+        if(frm.passwd.value!==frm.cpasswd.value){
+            alert("Password Mismathed");
+            frm.cpasswd.focus();
+            return false;
+        }
+    }
+    </script>
+		<link rel="stylesheet" type="text/css" href="signup.css">
+	</head>
+        <body style="background-color: #1252ac"><center>
+		        <div  style="width:100%;height: 240px;background: url('images/banner.jpg') no-repeat;background-size: cover;margin-top: -2%;"></div>
+		<div class="div1"><form action="http://localhost:42315/WebApp1/signupservlet" onsubmit="return validate(this)">
+			<center>
+                            <h2>Sign in here</h2>
+			<table  cellspacing="1" >
+				<tr>
+					<td>First Name</td>
+					<td><input type="text" name="fname"  placeholder="Enter First Name" autofocus required /></td>
+				</tr>
+				<tr>
+					<td>Last Name</td>
+					<td><input type="text" name="lname" placeholder="Last Name" required /></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" name="email" placeholder="abc@gmail.com" required /></td>
+				</tr>
+				<tr>
+					<td>Create Password</td>
+					<td><input type="password" name="passwd" required /></td>
+				</tr>
+				<tr>
+					<td>Confirm Password</td>
+					<td><input type="password" name="cpasswd" required /></td>
+				</tr>
+				<tr>
+					<td>Contact</td>
+                                        <td><input type="number" name="contact"  required /></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td><input type="radio" name="rad" value="male" checked="checked" />Male<input type="radio" name="rad" value="female" />Female</td>
+				</tr>
+				<tr>
+					<td>Country</td>
+					<td><select name="country" required >
+						<option value="india">India</option>
+						<option value="pakistan">Pakistan</option>
+						<option value="us">United States </option></select>
+					</td>
+				</tr>
+				<tr>
+	   			<td colspan=2>
+					<textarea rows=2 cols=50 disabled  style="width: 400px;height: 50px">====================================================== 	All Rights Reserved to CloudHost.com.  		======================================================</textarea>
+	   			</td>
+				</tr>
+				<tr>
+            	<td colspan="2"><input type=checkbox value="1" onchange="agree(this)"> Do you agree on this?</td>
+				</tr>
+				</table>
+				<input type=submit value="Save Data" id="btn" class="btn" disabled="disabled">
+				<a  href="login.html">Already User?</a>
+		</center></form></div>
+        </center>
+	</body>
+	
+</html>

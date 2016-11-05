@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Logging Out</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="images/cloud.ico" />
+        <style>
+            div{
+                width:100%;
+                text-align: center;
+                margin-top:180px;
+            }
+        </style>
+        <script>
+            
+           function  noback(){
+               window.history.forward();              
+            }
+            function login(){
+                window.location="login.html";
+            }
+        </script>
+    </head>
+    <body onload="noback();setTimeout(login,2000)" onpageshow="javascript:if(event.persisted){noback();}">
+        <div><img src="images/PleaseWait.gif" alt="Please Wait......" ></div>
+    </body>
+    
+</html>

@@ -1,0 +1,48 @@
+body{
+    font-family: verdana;
+    /*background-color:  #008dff;*/
+   /* background: url('images/cloud41.jpg') top no-repeat;
+   background-size: 100%;*/
+  
+   margin:0px;
+}
+.one{
+     
+    width: 500px;
+    height: 300px;
+    padding-top: 0px;
+    border: 2px solid #ffffcc;
+    color: white;
+    border-top:2px solid gray;
+     border-right:2px solid gray;
+    border-radius: 8px;
+}
+h1{
+    margin-top: 0px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+#sbt{
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 20px;
+    background-color: crimson;
+    border: 1px solid crimson;
+    border-radius: 4px;
+    font-size: 20px;
+   transition: 0.8s;
+}
+#sbt:hover{
+    background-color:#ff6600;
+    
+    border: 1px solid #ff6600;
+    cursor: pointer;
+ 
+    
+}
+a{
+    color: white;
+}

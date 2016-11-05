@@ -1,0 +1,56 @@
+body{
+	/*background: url('images/cloud41.jpg') no-repeat fixed;*/
+       /* background-size: 100%;*/
+	color: white;
+	align-content: center;
+        font-family: verdana;
+        
+
+}
+.div1{
+	
+	border:3px solid cornsilk;
+	width: 600px;
+	height: 750px;
+	padding: 0px;
+        padding-top: 0px;
+        font-size: 20px;
+        border-radius: 8px;
+        border-top:3px solid grey;
+        border-right:3px solid grey;
+       
+
+}
+table{
+    margin: 10px;
+    padding: 20px;
+}
+	
+td{
+	padding: 5px;
+	margin-left: 5px;margin-right: 5px;
+}
+.btn{
+	padding: 10px;
+	background-color:crimson;
+	border:2px solid crimson;
+	color: white;
+	font-size: 18px;
+	border-radius: 4px;
+	margin-right: 5px;
+}
+.btn:hover{
+	cursor: pointer;
+	color:white;
+        background-color:#ff6600;
+        border:2px solid #ff6600;
+}
+a{
+    color: white;
+}
+h2{
+    margin-top: 0px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}

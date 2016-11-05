@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url('abcd.jpg') fixed;
+	background-size: cover;
+
+}
+table{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+th{
+	padding: 20px;
+        background-color: transparent;
+	height: 5%;
+	width: 100%;
+	position: relative;
+	
+}
+
+td{
+	position: relative;
+	padding: 10px;
+	width: 20%;
+	height: 200px;
+
+}
+.im{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#btn{
+	padding: 7px 15px 7px 15px;
+	background-color: #1252ac;
+	color: white;
+	border:1px solid  #1252ac;
+	border-radius: 4px;
+	margin-left: 0px;
+	cursor: pointer;
+}
+
+#txt{
+	height: 30px;
+	width: 400px;
+	margin-right: 0px;
+        padding: 5px;
+	
+
+}
+.bt{
+	background: transparent;
+	border:1px solid transparent;
+	cursor: pointer;
+	margin-left:10px;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	border-radius: 5px;
+	
+}
+.bt:hover{
+	
+	background-color: #1252ac;
+
+}
